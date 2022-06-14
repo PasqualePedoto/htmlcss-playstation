@@ -200,5 +200,36 @@ footer #logo-play{
     flex-basis: 50%;
 }
 
+/********
+MODELLIAMO TUTTI GLI EFFETTI DI HOVER
+*********/
+
+.btn.btn-primary._bgc-orange:hover{
+    background-color: #CD3D0F;
+}
+
+.btn.btn-primary._bgc-blue:hover{
+    background-color: #4677E9;
+}
+
+.btn.btn-primary._bgc-blue:hover{
+    background-color: #4677E9;
+}
+
+.btn.btn-primary._bgc-light-gray:hover{
+    background-color: #D9DADC;
+    color: #4677E9;
+}
+
+.btn.btn-primary._bgc-white:hover{
+    background-color: white;
+    color: #4677E9;
+}
+
+/* .btn.btn-primary:hover .hover-btn{
+    display: block;
+} */
+
+
 
 
