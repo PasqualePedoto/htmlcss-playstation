@@ -180,6 +180,25 @@ certa dimensione esplode */
     max-width: 400px;
 }
 
+/*
+FOOTER
+*/
+
+/* Ridimensioniamo il logo sie */
+
+footer{
+    background-color: #0A439C;
+}
+
+#sie-logo,
+footer #logo-play{
+    width: 100px;
+}
+
+#footer-logo,
+#footer-link{
+    flex-basis: 50%;
+}
 
 
 
