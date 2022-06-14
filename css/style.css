@@ -30,6 +30,10 @@
     background-color: #CD3D0F;
 }
 
+._bgc-blue{
+    background-color: #4677E9;
+}
+
 ._color-gray{
     color: gray;
 }
@@ -65,13 +69,10 @@
     height: 20px;
 }
 
-/* LARGHEZZE FISSE */
+/* PADDING */
 
-
-/*  */
-
-.bg-contain{
-    background-size: contain;
+._pad-2{
+    padding-top: 2rem;
 }
 
 /* Fixiamo il comportamento delle img */
@@ -88,10 +89,11 @@ HEADER
 header{
     position: fixed;
     top: 0;
-    right: 0;
-    left: 0;
+    width: 100%;
 
     z-index: 5;
+
+    box-shadow: 1px 3px 3px #777;
 }
 
 body{
@@ -144,8 +146,7 @@ JUMBOTRON
 
 /* JUMBOTRON CON BGI */
 
-.background{
-    background-image: url('../img/jumbo-bg.png');
+._background-setting{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -155,10 +156,33 @@ JUMBOTRON
     position: relative;
 }
 
-#jumbotron .background > .row{
+._background-setting.returnals-background{
+    background-image: url('../img/jumbo-bg.png');
+}
+
+._background-setting.it-takes-background{
+    background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
+}
+
+#jumbotron .returnals-background > .row{
     position: absolute;
     top: 35%;
     left: 10%;
 }
+
+#it-takes-two .it-takes-background > .row{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+
+/* Ridimensionamo il figure poichè ad una
+certa dimensione esplode */
+
+.it-takes-background figure{
+    max-width: 400px;
+}
+
+
 
 
