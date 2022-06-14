@@ -18,6 +18,14 @@
     background-color: white;
 }
 
+._bgc-gray{
+    background-color: #BEBCBB;
+}
+
+._bgc-light-gray{
+    background-color: #D9DADC;
+}
+
 ._bgc-black{
     background-color: black;
 }
@@ -44,6 +52,10 @@
 
 ._color-light-blue{
     color: #4C9BDC;
+}
+
+._color-blue{
+    color: #4677E9;
 }
 
 /* ! DA TOGLIERE ASSOLUTAMENTE */
