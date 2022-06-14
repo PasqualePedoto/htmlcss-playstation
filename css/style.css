@@ -230,6 +230,48 @@ MODELLIAMO TUTTI GLI EFFETTI DI HOVER
     display: block;
 } */
 
+/*
+HOVER SUL SET DELLA PS5: OPACITY e BORDER-BOTTOM 
+*/
+
+._ps5-active{
+    border-bottom: 2px solid #4677E9;
+}
+
+._ps5-set{
+    filter: opacity(0.5);
+}
+
+._ps5-set:hover{
+    filter: opacity(1);
+    border-bottom: 2px solid #4677E9;
+    cursor: pointer;
+}
+
+/* 
+TRANSITION SULLE CARD DEI GIOCHI PS5
+*/
+
+#keyart figure{
+    transition: transform 0.5s linear;
+}
+
+#keyart .active-keyart{
+    border: 2px solid #4677E9;
+}
+
+/* DANDO DEL PADDING AL FIGURE RESTRINGIAMO IL CONTENUTO
+IN MODO CHE IL BORDO ABBAI QUELL'EFFETTO */
+
+#keyart figure{
+    padding: 2px;
+}
+
+#keyart figure:hover{
+    transform: translateY(-20%);
+    cursor: pointer;
+}
+
 
 
 
