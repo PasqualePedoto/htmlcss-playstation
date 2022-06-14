@@ -184,7 +184,11 @@ certa dimensione esplode */
 FOOTER
 */
 
-/* Ridimensioniamo il logo sie */
+/* Ridimensioniamo il globo */
+
+._language-globe{
+    width: 20px;
+}
 
 footer{
     background-color: #0A439C;
