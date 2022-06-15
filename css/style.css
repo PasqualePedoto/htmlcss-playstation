@@ -97,6 +97,10 @@ img{
     max-width: 100%;
 }
 
+._mw-100{
+    max-width: 100%;
+}
+
 /******
 HEADER 
 *******/
@@ -120,7 +124,7 @@ body{
 }
 
 #spotlight{
-    width: 30px;
+    width: 20px;
 }
 
 
@@ -183,6 +187,15 @@ JUMBOTRON
     position: absolute;
     top: 10%;
     left: 5%;
+}
+
+/* Trade Marker icon */
+
+.fa-trademark{
+    font-size: 12px;
+
+    position: relative;
+    bottom: 5px;
 }
 
 /* Ridimensionamo il figure poichè ad una
@@ -287,6 +300,8 @@ IN MODO CHE IL BORDO ABBAI QUELL'EFFETTO */
     transform: translateY(-20%);
     cursor: pointer;
 }
+
+
 
 
 

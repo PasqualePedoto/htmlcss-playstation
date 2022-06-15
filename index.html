@@ -72,9 +72,9 @@
                             Accedi
                         </a>
                     </li>
-                    <li class="nav-item ps-2">
-                        <a href="#">
-                            <img id="spotlight" src="img/lens.svg" alt="">
+                    <li class="nav-item ps-2 d-flex align-items-center">
+                        <a href="#" class="">
+                            <img id="spotlight" src="img/lens.svg" alt="spotlight">
                         </a>
                     </li>
                 </ul>
@@ -104,7 +104,7 @@
     </section>
 
     <!-- Keyarts wall -->
-    <section id="keyart">
+    <section id="keyart" class="py-5">
         <div class="container">
             <div class="row">
                 <div class="col-6 col-sm-4 col-lg-2">
@@ -142,11 +142,11 @@
     </section>
 
     <!-- Play has no limits section -->
-    <section id="play-has-no-limits">
+    <section id="play-has-no-limits" class="py-5">
         <div class="container">
             <div class="row text-center">
                 <div class="col-12">
-                    <p class="_color-light-blue mt-3">PLAY HAS NO LIMITS</p>
+                    <p class="_color-light-blue">PLAY HAS NO LIMITS</p>
                     <h1>Ecco la PlayStation 5</h1>
                     <p>Tuffati in nuove possibilità di gioco completamente inaspettate</p>
                 </div>
@@ -155,7 +155,7 @@
     </section>
 
     <!-- PS5 Set Section -->
-    <section id="ps5-set">
+    <section id="ps5-set" class="py-5">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-6">
@@ -176,47 +176,58 @@
                         </figure>
                     </div>
                 </div>
-                <div class="col-12"></div>
-                <div class="d-none d-lg-block col-lg-1"></div>
-                <div class="col-4 col-lg-2 text-center">
-                    <div>
-                        <figure class="_ps5-active rounded-3">
-                            <img class="rounded-3" src="img/playstation-5-thumb.png" alt="ps5">
-                        </figure>
-                        <div class="h4 d-none d-md-block">Console PS5</div>
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-4 col-md">
+                            <div>
+                                <figure class="_ps5-active">
+                                    <img src="img/playstation-5-thumb.png" alt="ps5">
+                                </figure>
+                                <div class="h4 d-none d-md-block">Console PS5</div>
+                            </div>
+                        </div>
+                        <div class="col-4 col-md">
+                            <div>
+                                <figure >
+                                    <img src="img/joypad-thumb.png" alt="joypad">
+                                </figure>
+                                <div class="h4 d-none d-md-block">
+                                    Controller Wireless DualSense<i class="fa-solid fa-trademark"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 col-md">
+                            <div>
+                                <figure>
+                                    <img src="img/headset-thumb.png" alt="headset">
+                                </figure>
+                                <div class="h4 d-none d-md-block">
+                                    Cuffie Wireless con microfono PULSE 3<i class="fa-solid fa-trademark"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 col-md">
+                            <div>
+                                <figure>
+                                    <img src="img/remote-thumb.png" alt="remote">
+                                </figure>
+                                <div class="h4 d-none d-md-block">
+                                    Telecomando Media
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 col-md">
+                            <div>
+                                <figure class="_ps5-active">
+                                    <img src="img/camera-thumb.jpg" alt="camera">
+                                </figure>
+                                <div class="h4 d-none d-md-block">
+                                    Telecamera HD
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-4 col-lg-2 text-center">
-                    <figure class="_ps5-set">
-                        <img src="img/joypad-thumb.png" alt="joypad">
-                    </figure>
-                    <div class="h4 d-none d-md-block">Controller Wireless Dualsense</div>
-                </div>
-                <div class="col-4 col-lg-2 text-center">
-                    <div>
-                        <figure class="_ps5-set">
-                            <img src="img/headset-thumb.png" alt="headset">
-                        </figure>
-                        <div class="h4 d-none d-md-block">Cuffie Wireless con microfono Pulse 3</div>
-                    </div>
-                </div>
-                <div class="col-4 col-lg-2 text-center">
-                    <div>
-                        <figure class="_ps5-set">
-                            <img src="img/remote-thumb.png" alt="remote">
-                        </figure>
-                        <div class="h4 d-none d-md-block">Telecomando Media</div>
-                    </div>
-                </div>
-                <div class="col-4 col-lg-2 text-center">
-                    <div>
-                        <figure class="_ps5-set">
-                            <img src="img/camera-thumb.jpg" alt="camera">
-                        </figure>
-                        <div class="h4 d-none d-md-block">Telecamera HD</div>
-                    </div>
-                </div>
-                <div class="d-none d-lg-block col-lg-1"></div>
             </div>
         </div>
     </section>
@@ -244,16 +255,14 @@
     </section>
 
     <!-- New drop section -->
-    <section id="new-drop" class="_bgc-light-black p-2 text-white">
+    <section id="new-drop" class="_bgc-light-black py-5 text-white">
         <div class="container">
             <div class="row">
-                <div class="col-12 _h-60"></div>
                 <div class="col-12">
                     <h2>Nuove uscite</h2>
                     <h3>Giochi incredibili per PS4 e PS5 disponibili ora</h3>
                 </div>
-                <div class="col-12 _h-20"></div>
-                <div class="col-6 col-sm-4 col-lg-2">
+                <div class="mt-2 col-6 col-sm-4 col-lg-2">
                     <div>
                         <figure>
                             <img class="rounded-3" src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="crash">
@@ -378,10 +387,9 @@
     </section>
 
     <!-- PS4 section -->
-    <section id="ps4">
+    <section id="ps4" class="py-5">
         <div class="container">
             <div class="row">
-                <div class="col-12 _h-60"></div>
                 <div class="col-12 text-center">
                     <h2>Esplora PlayStation 4</h2>
                     <p>
@@ -455,8 +463,8 @@
                         </a>
                     </div>  
                 </div>
-                <div class="d-none d-md-block col-md-6 m-0 p-0">
-                    <figure class="m-0 p-0">
+                <div class="col-md-6 m-0 p-0">
+                    <figure class="d-none d-md-block m-0 p-0">
                         <img src="img/ps-plus-april-monthly-games-featured-image-block.png" alt="games-plus">
                     </figure>
                 </div>
@@ -465,7 +473,7 @@
     </section>
 
     <!-- Cut Price Section -->
-    <section id="cut-price">
+    <section id="cut-price" class="py-5">
         <div class="container">
             <div class="row text-center">
                 <div class="col-12">
@@ -498,7 +506,7 @@
     <section id="playstation-now" class="_bgc-drak-blue">
         <div class="container">
             <div class="row text-white">
-                <div class="col-12 col-md-6 d-lg-flex align-items-center">
+                <div class="col-12 col-md-6 d-md-flex align-items-center">
                     <div>
                         <div>
                             <figure class="w-50">
@@ -515,8 +523,8 @@
                         </a>
                     </div>  
                 </div>
-                <div class="d-none d-md-block col-md-6 m-0 p-0">
-                    <figure class="m-0 p-0">
+                <div class="col-md-6 m-0 p-0">
+                    <figure class="d-none d-md-block m-0 p-0">
                         <img src="img/ps-now-april-featured-image-block.png" alt="games-plus">
                     </figure>
                 </div>
@@ -525,11 +533,11 @@
     </section>
 
     <!-- Social Media Section -->
-    <section id="social-media">
+    <section id="social-media" class="py-5">
         <div class="container">
             <div class="row text-center">
                 <div class="col-12">
-                    <h2>Seguici sui social media</h2>
+                    <h2 class="pb-3">Seguici sui social media</h2>
                 </div>
                 <div class="col-6 col-sm-3 col-lg-2 offset-lg-2">
                     <figure>
@@ -556,14 +564,14 @@
     </section>
 
     <!-- FOOTER -->
-    <footer>
+    <footer class="py-5">
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <div class="d-lg-flex">
                         <div id="footer-logo">
-                            <figure class="m-0">
-                                <img id="logo-play" src="img/play_logo.svg" alt="logo-play">
+                            <figure>
+                                <img id="logo-play" src="img/ps-footer.svg" alt="logo-play">
                             </figure>
                             <div class="text-white mb-3 d-flex align-items-center">
                                 <figure class="_language-globe m-0">
@@ -604,7 +612,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div>
+                    <div class="text-white">
                         <figure>
                             <img id="sie-logo" src="img/sie-logo.svg" alt="logo-sie">
                         </figure>
