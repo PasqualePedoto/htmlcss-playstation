@@ -112,7 +112,15 @@ header{
 }
 
 body{
-    padding-top: 72px;
+    padding-top: 78px;
+}
+
+#logo-header{
+    width: 40px;
+}
+
+#spotlight{
+    width: 30px;
 }
 
 
@@ -128,6 +136,10 @@ body{
 
 #logo-sony{
     height: 12px;
+}
+
+#logo-play{
+    width: 25px;
 }
 
 /* Lente di ingrandimento */
