@@ -267,6 +267,12 @@ MODELLIAMO TUTTI GLI EFFETTI DI HOVER
     color: #4677E9;
 }
 
+/* Puntatore quando siamo in hover sul btn */
+
+.btn.btn-primary{
+    cursor: pointer;
+}
+
 /*
 HOVER SUL SET DELLA PS5: OPACITY e BORDER-BOTTOM 
 */
